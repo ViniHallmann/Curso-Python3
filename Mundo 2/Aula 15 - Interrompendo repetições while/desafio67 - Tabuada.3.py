@@ -5,6 +5,7 @@ while True:
     n = int(input('Quer ver a tabuada de qual valor? '))
     print('-'*33)
     if n < 0:
+        print("Programa Fechado")
         break
     for a in range(1,11):
         print(f'{n} X {a} = {n*a}')

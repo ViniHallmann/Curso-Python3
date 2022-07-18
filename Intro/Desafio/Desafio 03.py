@@ -1,0 +1,5 @@
+print ('===== Desafio 03 =====')
+n1 = input ('Primeiro número =') 
+n2 = input ('Segundo número =')
+s = int (n1) + int (n2)
+print ('A soma do primeiro número que é igual a '+ n1 + ' + o segundo número que é igual a '+ n2 + ' que resulta em = '+ str(s))

@@ -1,0 +1,17 @@
+#Faça um programa que leia algo pela teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele
+n = input ('Digite algo para mim \n')
+print (type(n))
+print ('É um número?',n.isnumeric())
+print ('É uma letra?',n.isalpha())
+print ('Está em minúscula?', n.islower())
+print ('Está em Maiúscula?',n.isupper())
+print ('Está capitalizada?',n.istitle())
+print ('É um espaço?',n.isspace())
+
+n1 = input('Me diga seu número da sorte \n')
+print (type(n1))
+print ('É um número?', n1.isnumeric())
+print ('É uma letra?',n1.isalpha())
+print ('Está em minúscula?',n1.islower())
+print ('Está em Maiúscula?',n1.isupper())
+print ('É um número e/ou uma letra?',n1.isalnum())
